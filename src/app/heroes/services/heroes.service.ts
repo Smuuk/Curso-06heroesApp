@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, catchError, of } from 'rxjs';
 import { Heroe } from '../interfaces/heroe.interface';
-import { enviroment } from 'src/enviroments/enviroments';
+import { enviroment } from '../../../enviroments/enviroments';
 
 @Injectable({providedIn: 'root'})
 export class HeroesService {
@@ -18,5 +18,9 @@ export class HeroesService {
         .pipe(
             catchError(error  => of(undefined))
         );
+    }
+
+    getSuggestions(query: string): Observable<Heroe[]>{
+        return this.http.get<Heroe[]>(`${this.baseUrl}/heroes?q=${query}&_limit=6`);
     }
 }
