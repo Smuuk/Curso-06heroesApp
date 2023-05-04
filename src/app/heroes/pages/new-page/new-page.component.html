@@ -8,25 +8,25 @@
     <div class="col-12 sm:col-6">
         <mat-card>
             <mat-card-content>
-                <div class="grid">
+                <form class="grid" [formGroup]="heroForm">
                     <mat-form-field class="col-12 sm:col-6">
                         <mat-label>Super heroe</mat-label>
-                        <input type="text" matInput required>
+                        <input type="text" matInput required formControlName="superhero">
                     </mat-form-field>
 
                     <mat-form-field class="col-12 sm:col-6">
                         <mat-label>Alter ego</mat-label>
-                        <input type="text" matInput required>
+                        <input type="text" matInput required formControlName="superhero">
                     </mat-form-field>
 
                     <mat-form-field class="col-12">
                         <mat-label>Primera aparicion</mat-label>
-                        <input type="text" matInput required>
+                        <input type="text" matInput required formControlName="superhero">
                     </mat-form-field>
 
                     <mat-form-field class="col-12">
                         <mat-label>Personajes</mat-label>
-                        <input type="text" matInput required>
+                        <input type="text" matInput required formControlName="superhero">
                     </mat-form-field>
 
                     <mat-form-field class="col-12">
@@ -37,7 +37,7 @@
                             </mat-option>
                         </mat-select>
                     </mat-form-field>
-                </div>
+                </form>
 
                 <div class="flex justify-content-between">
                     <button mat-flat-button color="warn">
