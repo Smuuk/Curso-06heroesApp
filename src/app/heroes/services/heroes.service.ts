@@ -34,7 +34,7 @@ export class HeroesService {
 
     updateHero(hero: Heroe): Observable<Heroe> {
         if(!hero.id) throw Error('Hero id is required')
-        return this.http.post<Heroe>(`${this.baseUrl}/heroes/${hero.id}`, hero);
+        return this.http.patch<Heroe>(`${this.baseUrl}/heroes/${hero.id}`, hero);
     }
 
     deleteHeroById(id: string): Observable<boolean> {

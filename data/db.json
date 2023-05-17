@@ -13,7 +13,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne"
+      "characters": "Bruce Wayne",
+      "alt_img": "https://www.freecomicbookday.com/SiteImage/MainImage/STL256307"
     },
     {
       "id": "dc-superman",
@@ -21,7 +22,8 @@
       "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El"
+      "characters": "Kal-Elotito",
+      "alt_img": null
     },
     {
       "id": "dc-flash",
@@ -38,14 +40,6 @@
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
       "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
-    },
-    {
-      "id": "dc-arrow",
-      "superhero": "Green Arrow",
-      "publisher": "DC Comics",
-      "alter_ego": "Oliver Queen",
-      "first_appearance": "More Fun Comics #73",
-      "characters": "Oliver Queen"
     },
     {
       "id": "dc-wonder",
@@ -142,14 +136,6 @@
       "alter_ego": "Matthew Michael Murdock",
       "first_appearance": "Daredevil #1",
       "characters": "Matthew Michael Murdock"
-    },
-    {
-      "id": "marvel-hawkeye",
-      "superhero": "Hawkeye",
-      "publisher": "Marvel Comics",
-      "alter_ego": "Clinton Francis Barton",
-      "first_appearance": "Tales of Suspense #57",
-      "characters": "Clinton Francis Barton"
     },
     {
       "id": "marvel-cyclops",
